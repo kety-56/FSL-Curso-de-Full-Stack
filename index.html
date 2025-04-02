@@ -1,0 +1,63 @@
+<!DOCTYPE html> <!--versao do HTML-->
+<html lang="pt-br"><!--IDIOMA-->
+
+<head>
+  <meta charset="UTF-8"> <!--CONFIGURAÇAO de caracteristica-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+  <title>Starbucks</title>
+</head>
+
+<script>
+  const circleColorGreen = "#017143";
+  const circleColorPink = "#eb7495";
+  const circleColorPurple = "#d752b1";
+
+  const imgGlasGreen = "img/img1.png";
+  const imgGlasPink = "img/img2.png";
+  const imgGlasPurple = "img/img3.png";
+
+  console.log(circleColor1);
+</script>
+
+<body>
+
+  <div class="circulo"></div>
+
+  <img class="logo-starbucks" src="img/logo.png" alt="imagem-logo-starbucks">
+
+  <div class="conteudo">
+
+    <div class="texto">
+      <h2>It's not just Coffee It's <span>Starbucks</span> </h2>
+
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse aliquid officia maxime mollitia totam dolorem
+        nesciunt natus officiis id accusamus nihil dolore, rem itaque minus corporis molestiae, ipsa, voluptatibus
+        dolores.
+      </p>
+
+      <button onclick="acessToSite()">Clique Aqui</button>
+    </div>
+
+    <div class="caixa-imagem">
+
+      <img class="imagem" src="img/img1.png" alt="imagem-copo-starbucks">
+
+    </div>
+  </div>
+
+  <div class="menu">
+    <img onclick="changeColorAndImg(circleColorGreen, imgGlasGreen)" class="botao-menu" src="img/thumb1.png" alt="imagem-copinho">
+    <img onclick="changeColorAndImg(circleColorPink, imgGlasPink)" class="botao-menu" src="img/thumb2.png" alt="imagem-copinho">
+    <img onclick="changeColorAndImg(circleColorPurple, imgGlasPurple)" class="botao-menu" src="img/thumb3.png" alt="imagem-copinho">
+  </div>
+</body>
+<script src="script.js"></script>
+
+</html>
