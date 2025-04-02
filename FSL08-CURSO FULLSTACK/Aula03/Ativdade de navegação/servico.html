@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UFT-8" />
+  <meta name="viewport" content="idth-device-wudth,initial-scale1.0" />
+  <title></title>
+  <style>
+    body {
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      line-height: 1.6;
+    }
+
+    section {
+      height: 100vh;
+      padding: 20px;
+      border-bottom: 2px solid #011d19;
+    }
+
+    nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background: #079a09;
+      padding: 10px 0;
+      text-align: center;
+    }
+
+    nav a {
+      color: #0e3f34;
+      text-decoration: none;
+      margin: 0 15px;
+      font-size: 18px;
+    }
+
+    .circulo {
+      width: 100%;
+      height: 100%;
+      background: rgb(1, 113, 67);
+      position: absolute;
+      top: 0;
+      left: 0;
+      clip-path: circle(300px at right 500px);
+      z-index: -1;
+    }
+    .imagem {
+    width: 350px;
+    display:flex;
+    justify-content:flex-end;
+    margin: top 200px;;
+    /* cria uma margem, um espaço*/
+}
+  </style>
+</head>
+
+<body>
+
+  <nav>
+    <a href="index.html">Página Inicial</a>
+    <a href="servico.html">Serviço</a>
+    <a href="contato.html">Contato</a>
+  </nav>
+  <section id="servico.html">
+    <h2>Tipos de Chás Oferecidos</h2>
+    <img class="imagem" src="img.jpg">
+    <div class="circulo" ></div>
+    <ol>
+      <li>Hibisco</li>
+      <li>Mação com Canela</li>
+      <li>Hortelã</li>
+      <li>Camomila e Maracujá</li>
+    </ol>
+  </section>
+</body>

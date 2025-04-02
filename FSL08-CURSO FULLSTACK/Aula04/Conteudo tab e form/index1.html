@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="iewport" content="width-device-width,initial-scale=1.0" />
+    <title>Pesquisa</title>
+</head>
+
+<body>
+    <form action="https://google.com/search" method="get"><!--formulario/ action= ação que o programa ira realizar-->
+        <label for="nome">Nome:</label>
+        <input type="text" name="q" required /><!--required atributo de obrigação, deixa o campo como obrigatorio-->
+        <button type="submit">Pesquisar</button>
+        </br></br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"
+            required /><!--required atributo de obrigação, deixa o campo como obrigatorio-->
+        <button type="submit">Pesquisar</button>
+        <br>
+        <br>
+
+
+        <label for="senha">Senha:</label>
+        <input type="password" id="email" name="email"
+            required /><!--required atributo de obrigação, deixa o campo como obrigatorio-->
+        <br><br>
+        <button type="submit">Pesquisar</button>
+        <br><br>
+
+        <label>Genêro:</label>
+
+        <input type="radio" id="genero" name="genero" />
+        <label input="masculino">Masculino</label>
+
+        <input type="radio" id="genero" name="genero" />
+        <label input="feminino">Feminino</label>
+
+        <input type="radio" id="genero" name="genero" />
+        <label input="prefironaomarca">Prefiro não marcar</label>
+        <br><br>
+
+        <label>Interesses:</label><!--tipo:cjeckbox permite multiplaescolha-->
+
+        <input type="checkbox" id="frontend" value="frontend" name="Interesses" />
+        <label input="frontend">Front-End</label>
+
+        <input type="checkbox" id="backend" value="frontend" name="Interesses" />
+        <label input="frontend">Back-End</label>
+
+        <input type="checkbox" id="fullstack" value="frontend" name="Interesses" />
+        <label input="frontend">Full-Stack</label>
+        <br><br>
+
+        <label for="birthdate">Data de Nascimento:</label>
+        <input type="date" id="birthdate" name="nascimento" />
+        <br><br>
+
+        <label for="fotoDePerfil">Foto de Perfil:</label>
+        <input type="file" id="fotoDePerfil" name="fotoDePerfil" /><!--  tipo:file tem como extrair algum arq do pc e baixar ele para o programa-->
+        <br/><br/>
+
+        <label for="situacao">Situação Atual</label>
+        <select name="situacao" id="interesses"><!--como se fosse uma linta so que em vez de usar li usamos option-->
+            <option value="">SElecione uma das opções</option>
+            <option value="fullstack">Ser Full-Stack</option>
+            <option value="backend">Ser  Back-End</option>
+            <option value="frontend">Ser Front-End</option>
+            <option value="mobile">Ser Mobile</option>
+        </select>
+        <br/><br/>
+
+        <label for="sobre">Sobre mim</label>
+        <textarea name="sobre" id="sobre" cols="40" rows="6" placeholder="Descreva sobre você..." ></textarea>
+        <by/><br/>
+        <button type="submit">Pesquisar</button>
+
+    </form>
+
+</body>
+
+</html>
+<!--tag get usado para pesquisar-->
